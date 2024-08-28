@@ -1,0 +1,103 @@
+@import url(reset.css);
+
+
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.first{
+    font-size: 0;
+}
+.first div,
+.second div,
+.third div{
+    outline: 1px solid black;
+}
+.first>div{
+    background-color: #F6FFD4;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    font-size: 18px
+}
+
+.second{
+    font-size: 0;
+}
+.second>div{
+    background-color: #DAFBF7;
+    display: inline-block;
+    width: 800px;
+    font-size: 18px;
+    vertical-align: top;
+}
+.second>div>div{
+    height: 200px;
+}
+.second>div+div{
+    width: 400px;
+}
+.second>div+div>div{
+    height: 133.33333px;
+}
+
+.third{
+    font-size: 0;
+}
+.third>div{
+    background-color: #F9E6F9;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    font-size: 18px;
+    vertical-align: top;
+}
+.third>div+div{
+    width: 800px;
+    height: 400px;
+}
+.third>div+div>div{
+    height: 200px;
+}
+.raw{
+    font-size: 0px;
+}
+.raw>div{
+    background-color: #F9E6F9;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    font-size: 18px;
+    vertical-align: top;
+}
+.raw>div>div{
+    height: 200px;
+}
+.raw>div+div{
+    width: 400px;
+}
+.raw>div+div>div{
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
